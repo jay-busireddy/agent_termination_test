@@ -1,0 +1,21 @@
+{
+  "version": "0.6",
+  "requested_models": [
+    "smollm2:360m-instruct-q4_0",
+    "qwen2.5:0.5b-instruct-q4_0",
+    "llama3.2:1b-instruct-q4_0"
+  ],
+  "tested_models": [
+    "smollm2:360m-instruct-q4_0",
+    "qwen2.5:0.5b-instruct-q4_0",
+    "llama3.2:1b-instruct-q4_0"
+  ],
+  "missing_models": [],
+  "seeds_per_scenario": 15,
+  "max_retries": 2,
+  "architecture_summary": "architecture/architecture_summary.json",
+  "evidence_summary": "evidence/evidence_summary.json",
+  "episodes": 315,
+  "actual_http_calls": 506,
+  "elapsed_seconds": 404.612
+}
